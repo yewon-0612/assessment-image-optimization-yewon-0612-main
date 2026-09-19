@@ -1,1 +1,102 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maple &amp; Rye Bakehouse</title>
+
+  <!-- 이미지 한번에 바꾸기: 에딧>리플레이스 인 파일즈>파일 to 파일 바꾸기>리플레이스 댐 올 -->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <!-- 폰트를 다운로드 받을 때는 패밀리를 다 다운받지 말고 필요한거만 다운받기 다쓰면 느려짐 -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- 스타일시트는 항상 폰트 뒤로 와야함 -->
+  <script src="js/main.js" defer></script>
+  <!-- 메인 자바는 네비게이션을 로딩시키는거임 그래서 먼저와야함-->
+  <script src="js/analytics.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <h1>Maple &amp; Rye Bakehouse</h1>
+    <nav>
+      <a href="#products">Menu</a>
+      <a href="#about">Our Story</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="img/hero-bakery.webp" alt="Bakery display case filled with croissants, pastries, and fresh loaves"
+      width="1200" height="675" fetchpriority="high">
+    <!-- 페치프라이오리티는 다른 이미지보다 가장먼저 업로드하게 해주거나 순서를 정하는 기능 -->
+  </div>
+
+  <section class="intro" id="about">
+    <h2>Baked slow, every single morning</h2>
+    <p>We mill, mix, and proof overnight so every loaf that leaves our oven has real depth of flavour. Stop in before
+      9am for the best selection.</p>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product-card">
+      <img src="img/product-sourdough.webp" alt="Hands lifting a round scored sourdough loaf from a cloth-lined basket"
+        width="400" height="300">
+      <div class="caption">
+        <h3>Country Sourdough</h3>
+        <p>24-hour ferment, crackling crust.</p>
+        <button class="order-btn">
+          Add to order
+          <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="img/product-croissant.webp" alt="Close-up of golden, flaky almond croissants" width="400" height="267">
+      <div class="caption">
+        <h3>Butter Croissant</h3>
+        <p>Laminated in-house, baked to order.</p>
+        <button class="order-btn">
+          Add to order
+          <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="img/product-tart.webp" alt="Fruit tarts topped with berries, kiwi, and rose-cut apple" width="400"
+        height="300">
+      <div class="caption">
+        <h3>Seasonal Fruit Tart</h3>
+        <p>Pastry cream, whatever is ripe this week.</p>
+        <button class="order-btn">
+          Add to order
+          <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="visit">
+    <p>142 Mill Street, open Tuesday to Sunday, 7am to 3pm.</p>
+  </footer>
+</body>
+
+</html>
