@@ -7,14 +7,14 @@
 body {
   margin: 0;
   font-family: "Coiny", system-ui;
-  color: #3A2A1D;
+  color: #3a3024;
   background: #FFFDFB;
   line-height: 1.5;
 }
 
 header {
-  background: #4A2E1B;
-  color: #F6E9DA;
+  background: #ecc1f2;
+  color: #3a3024;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header h1 {
 }
 
 nav a {
-  color: #F6E9DA;
+  color: #3a3024;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
@@ -67,7 +67,7 @@ nav a {
 }
 
 .product-card {
-  background: #FBF3EA;
+  background: rgb(255, 253, 218);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
@@ -90,8 +90,8 @@ nav a {
 }
 
 footer {
-  background: #4A2E1B;
-  color: #F6E9DA;
+  background: #ecc1f2;
+  color: #3a3024;
   text-align: center;
   padding: 2rem;
 }
@@ -100,7 +100,7 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #B5652E;
+  background: #560c60;
   color: #FFFDFB;
   border: none;
   border-radius: 6px;
