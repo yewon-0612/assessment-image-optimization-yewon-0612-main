@@ -114,6 +114,14 @@ footer {
   flex-shrink: 0;
 }
 
+.hero {
+  background-image: image-set(url(../optimized-img/black-dog-is-chasing-brown-dog.webp) 1x,
+  url(../optimized-img/black-dog-is-chasing-brown-dog-2x.webp) 2x);
+  background-size: cover;
+  background-position: center;
+  min-height: 45vh;
+}
+
 /* ---- print styles, bundled in with everything else ---- */
 @media print {
   header, nav, footer {
