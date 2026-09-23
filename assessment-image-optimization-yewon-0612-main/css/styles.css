@@ -34,7 +34,7 @@ nav a {
   font-weight: 600;
 }
 
-/* .hero {
+.hero {
   overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ nav a {
   height: 420px;
   object-fit: cover;
   display: block;
-} */
+}
 
 .intro {
   max-width: 720px;
@@ -114,13 +114,6 @@ footer {
   flex-shrink: 0;
 }
 
-.hero {
-  background-image: image-set(url(../optimized-img/black-dog-is-chasing-brown-dog-small.webp) 1x,
-  url(../optimized-img/black-dog-is-chasing-brown-dog-small-2x.webp) 2x);
-  background-size: cover;
-  background-position: center;
-  min-height: 45vh;
-}
 
 /* ---- print styles, bundled in with everything else ---- */
 @media print {
@@ -136,21 +129,4 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
-  .hero {
-    background-image: image-set(
-      url("../optimized-img/black-dog-is-chasing-brown-dog-medium.webp") 1x,
-      url("../optimized-img/black-dog-is-chasing-brown-dog-medium-2x.webp") 2x
-    );
-  }
-}
-
-@media (min-width: 1200px) {
-  .hero {
-    background-image: image-set(
-      url("../optimized-img/black-dog-is-chasing-brown-dog.webp") 1x,
-      url("../optimized-img/black-dog-is-chasing-brown-dog-2x.webp") 2x
-    );
-  }
-}
 
